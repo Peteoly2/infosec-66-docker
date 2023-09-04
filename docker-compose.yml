@@ -23,7 +23,7 @@ services:
     restart: 'unless-stopped'
  
   strapi:
-    container_name: kasidech-strapi
+    container_name: natthawut-strapi
     image: naskio/strapi:latest
     ports:
       - 1337:1337
